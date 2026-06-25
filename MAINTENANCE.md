@@ -10,6 +10,8 @@ This repository is maintained as a small defensive systems-programming utility.
 
 ### 2026-06-25
 
+- Added GitHub Actions CI on `windows-latest` for syntax and public repository checks.
+- Documented the local check commands in the README.
 - Split the scanner into its own standalone repository.
 - Added public project files and safety boundaries.
 - Kept the test target local and synthetic so the scanner can be verified

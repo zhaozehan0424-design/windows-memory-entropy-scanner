@@ -52,6 +52,15 @@ python .\mem_scanner.py <PID> --min-entropy 4.2 --min-distinct 18
 python .\mem_scanner.py <PID> --embedded
 ```
 
+## Checks
+
+Run the same checks used by CI:
+
+```powershell
+python -m py_compile .\mem_scanner.py .\tools\hold_hex_target.py
+python .\scripts\check-public-repo.py
+```
+
 ## Output
 
 Matches are printed with:
@@ -76,6 +85,8 @@ The local `tools/hold_hex_target.py` script is provided so the scanner can be
 tested without targeting third-party applications.
 
 ## Maintenance
+
+GitHub Actions runs syntax and public-repository checks on pushes and pull requests.
 
 See [MAINTENANCE.md](./MAINTENANCE.md) and [CHANGELOG.md](./CHANGELOG.md).
 
