@@ -9,8 +9,14 @@ REQUIRED_FILES = [
     "README.md",
     "CHANGELOG.md",
     "MAINTENANCE.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
     "LICENSE",
     ".gitignore",
+    ".github/workflows/ci.yml",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/safety_or_docs.md",
+    ".github/pull_request_template.md",
     "mem_scanner.py",
     "tools/hold_hex_target.py",
 ]
@@ -21,6 +27,8 @@ REQUIRED_README_SNIPPETS = [
     "VirtualQueryEx",
     "ReadProcessMemory",
     "authorized",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
     "tools/hold_hex_target.py",
     "MIT",
 ]

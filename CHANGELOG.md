@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.1.2 - 2026-06-27
+
+Open-source maintenance templates.
+
+- Added `SECURITY.md` and `CONTRIBUTING.md`.
+- Added bug report, safety/docs, and pull request templates.
+- Extended the public repository check to require collaboration and safety files.
+
 ## v0.1.1 - 2026-06-25
 
 Repository CI and maintenance workflow.

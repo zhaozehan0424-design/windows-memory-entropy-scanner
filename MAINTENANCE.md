@@ -8,6 +8,12 @@ This repository is maintained as a small defensive systems-programming utility.
 
 ## Maintenance Log
 
+### 2026-06-27
+
+- Added security and contribution guidelines focused on authorized defensive use.
+- Added issue and pull request templates for bug reports, safety/docs changes, and review notes.
+- Extended the public repository check to require collaboration and safety files.
+
 ### 2026-06-25
 
 - Added GitHub Actions CI on `windows-latest` for syntax and public repository checks.

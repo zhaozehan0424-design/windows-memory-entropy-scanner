@@ -84,6 +84,8 @@ logs, or instructions for bypassing access controls.
 The local `tools/hold_hex_target.py` script is provided so the scanner can be
 tested without targeting third-party applications.
 
+Security and contribution notes are in [SECURITY.md](./SECURITY.md) and [CONTRIBUTING.md](./CONTRIBUTING.md).
+
 ## Maintenance
 
 GitHub Actions runs syntax and public-repository checks on pushes and pull requests.
