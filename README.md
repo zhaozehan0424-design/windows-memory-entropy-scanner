@@ -1,4 +1,7 @@
 # Windows Memory Entropy Scanner
+[![CI](https://github.com/zhaozehan0424-design/windows-memory-entropy-scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/zhaozehan0424-design/windows-memory-entropy-scanner/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[Repository status](./REPOSITORY_STATUS.md) records the latest maintenance checks and release-readiness notes.
 
 Windows-only Python scanner for finding entropy-rich 32-byte values represented
 as 64 ASCII hexadecimal characters in readable process memory.
